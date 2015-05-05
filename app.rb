@@ -3,7 +3,7 @@ require 'sinatra'
 set :bind, '0.0.0.0'
 set :port,8080
 get '/' do
-  "jhbkj kjkjlkj \n"+
+  "jhbkj kjkjlkj jkjlklklk \n"+
 # ENV values are generated during template processing
 # and then passed to the container when openshift launches it.
   "User is #{ENIV['ADMIN_USERNAME']}\n"+
